@@ -10,10 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int a = 123;
+            int b = 456;
+            var c = Func2(a, b);
             Console.WriteLine("Hello");
         }
 
-        private int Func2(int a,int b)
+        private static int Func2(int a,int b)
         {
             return a * b;
         }
