@@ -12,5 +12,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello");
         }
+
+        private void Func1()
+        {
+            
+        }
     }
 }
