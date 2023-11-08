@@ -13,9 +13,9 @@ namespace ConsoleApp1
             Console.WriteLine("Hello");
         }
 
-        private void Func2()
+        private int Func2(int a,int b)
         {
-
+            return a * b;
         }
     }
 }
